@@ -1,0 +1,39 @@
+.page-control-box {
+    justify-content: center;
+}
+.page-control-box .page-control-box-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-control-box .prev-btn img, .page-control-box .next-btn img {
+    width: 22px;
+    height: 21px;
+    vertical-align: middle;
+}
+.page-control-box .number {
+    padding-top: 4px;
+    font-size: 18px;
+    color: #b3b3b3 !important;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.page-control-box .number.active {
+    color: #000000 !important;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: 2px solid #000;
+    margin: 0 10px !important;
+}
+
+.btn-hover-orange:hover {
+    color: #000 !important;
+    background: #e65401 !important;
+    font-weight:bold;
+    border:2px solid #000;
+}
